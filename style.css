@@ -1,0 +1,182 @@
+body
+{
+  background-image: url("background.jpg");
+  color: azure;
+}
+/* Ensures the text and image are aligned vertically */
+table td {
+  vertical-align: middle;
+}
+
+/* Adjusts the spacing between the image and the text */
+table td img {
+  margin-left: 50px; /* Add spacing between image and text */
+}
+
+/* Centers the text within the table cell */
+table td h1, table td p {
+  margin: 0; /* Remove default margin from heading and paragraph */
+  padding: 0; /* Remove default padding from heading and paragraph */
+  text-align: left; /* Ensure text is aligned to the left */
+}
+
+/* Fine-tunes the spacing around the table row */
+table {
+  width: auto; /* Keeps table width dynamic */
+  margin: 20px auto; /* Center table horizontally */
+}
+
+.heading1 {
+  font-size: 30px; /* Set font size for heading */
+  color: white;
+}
+h1{
+  color:white;
+  
+}
+
+p em, p strong {
+  font-size: 18px; /* Set font size for the "Student at SRMIST" text */
+  color: white;
+  margin-right: 10 px;
+}
+.light
+{
+  background-color: rgb(197, 238, 241);;
+  color: black;
+  .heading{
+    color: blueviolet;
+  }
+  .hr{
+    border-color: blue;
+  }
+}
+.heading{
+  color: rgb(45, 44, 44);
+  
+}
+.button
+{
+  text-align: right;
+}
+.hr
+{
+  border-style: dotted none none none;
+  width: 10%;
+  border-color: aquamarine;
+  border-width: 5px;
+}
+img
+{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+body
+{
+  cursor:all-scroll; /* Hide the default cursor */
+}
+.cursor
+{
+  position: relative;;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #a9d2e6; /* Change the color as desired */
+  mix-blend-mode: difference; /* Optional: blending mode for the cursor */
+  pointer-events: none; /* Allow interaction with elements beneath */
+  transition: transform 0.2s ease-out;
+  transform: translate(-50%, -50%) scale(1); /* Initial scale of the cursor */
+}
+  
+.cursor:hover
+{
+  transform: translate(-50%, -50%) scale(1.5); /* Scale the cursor on hover */
+}
+table {
+  width: 100%;
+}
+
+td, th {
+  vertical-align: middle; /* Vertically align the content in table cells */
+  text-align: left;       /* Align text to the left */
+  padding: 10px;
+}
+
+thead th {
+  background-color: rgb(140, 197, 219); /* Optional: Change the header background color */
+  color: black;              /* Optional: Header text color */
+}
+.skills-hobbies-container {
+  background-color:#f0f0f0d6; /* Light background for the container */
+  border: 1px solid #ddd; /* Border around the container */
+  border-radius: 10px; /* Rounded corners for the container */
+  padding: 20px; /* Padding inside the container */
+  margin: 20px 0; /* Margin around the container */
+  max-width: 600px; /* Limit the maximum width of the container */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills-heading, .hobbies-heading {
+  font-size: 25px; /* Font size for headings */
+  margin-bottom: 10px; /* Space below the headings */
+  color: #333; /* Text color */
+}
+
+.skills-list, .hobbies-list {
+  list-style-type: disc; /* Bullet points for the lists */
+  padding-left: 20px; /* Space before the list items */
+  margin: 0; /* Remove default margin */
+}
+
+.skills-list li, .hobbies-list li {
+  margin-bottom: 5px; /* Space between list items */
+  color: #555; /* Color of the list items */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  gap: 20px;               /* Add space between icons */
+  margin-top: 50px;         /* Add space from top section */
+}
+.social-icons a {
+  text-decoration: none;   /* Remove underline */
+  color: black;            /* Set default color */
+}
+.social-icons a:hover {
+  color: #0077b5;          /* Change color on hover (LinkedIn blue) */
+}
+.certificate-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.certificate-container {
+  display: flex;
+  justify-content: center; /* Center the images horizontally */
+  gap: 50px; /* Space between the images */
+  flex-wrap: wrap; /* Allow images to wrap if there's not enough space */
+  padding: 20px;
+  border: 2px solid #000; /* Border for the rectangular container */
+  border-radius: 10px; /* Optional: rounded corners for the container */
+  background-color: #f0f0f0d6; /* Background color for the container */
+  max-width: 100%; /* Ensure container doesn't exceed page width */
+  height: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+  margin-top: 50px;
+}
+
+.certificate-container img {
+  width: 280px; /* Fixed width for images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Optional: slight rounding of corners for images */
+  object-fit: cover; /* Ensure images cover their area without distortion */
+}
+
+.skills-heading
+{
+  font-size: 25px;
+}
